@@ -1,0 +1,11 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+
+	<persistence-unit name="cn.eleven.Person" transaction-type="RESOURCE_LOCAL">
+		<class>org.springframework.orm.jpa.domain.cn.eleven.Person</class>
+		<class>org.springframework.orm.jpa.domain.DriversLicense</class>
+		<exclude-unlisted-classes />
+	</persistence-unit>
+
+</persistence>
