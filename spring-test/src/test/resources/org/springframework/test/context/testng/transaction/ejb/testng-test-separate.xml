@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="EJB-TX-Separate" verbose="1">
+	<cn.eleven.test name="RollbackForRequiredEjbTxDaoTestNGTests">
+		<classes>
+			<class name="org.springframework.cn.eleven.test.context.testng.transaction.ejb.RollbackForRequiredEjbTxDaoTestNGTests" />
+		</classes>
+	</cn.eleven.test>
+	<cn.eleven.test name="CommitForRequiredEjbTxDaoTestNGTests">
+		<classes>
+			<class name="org.springframework.cn.eleven.test.context.testng.transaction.ejb.CommitForRequiredEjbTxDaoTestNGTests" />
+		</classes>
+	</cn.eleven.test>
+	<cn.eleven.test name="CommitForRequiresNewEjbTxDaoTestNGTests">
+		<classes>
+			<class name="org.springframework.cn.eleven.test.context.testng.transaction.ejb.CommitForRequiresNewEjbTxDaoTestNGTests" />
+		</classes>
+	</cn.eleven.test>
+	<cn.eleven.test name="RollbackForRequiresNewEjbTxDaoTestNGTests">
+		<classes>
+			<class name="org.springframework.cn.eleven.test.context.testng.transaction.ejb.RollbackForRequiresNewEjbTxDaoTestNGTests" />
+		</classes>
+	</cn.eleven.test>
+</suite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="EJB-TX-Together" verbose="1">
+	<cn.eleven.test name="Together">
+		<classes>
+			<class name="org.springframework.cn.eleven.test.context.testng.transaction.ejb.RollbackForRequiredEjbTxDaoTestNGTests" />
+			<class name="org.springframework.cn.eleven.test.context.testng.transaction.ejb.CommitForRequiredEjbTxDaoTestNGTests" />
+			<class name="org.springframework.cn.eleven.test.context.testng.transaction.ejb.CommitForRequiresNewEjbTxDaoTestNGTests" />
+			<class name="org.springframework.cn.eleven.test.context.testng.transaction.ejb.RollbackForRequiresNewEjbTxDaoTestNGTests" />
+		</classes>
+	</cn.eleven.test>
+</suite>
